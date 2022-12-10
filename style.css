@@ -1,0 +1,224 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background: rgba(255, 255, 255, 0.617);
+  font-family: "Poppins", "sans-serif";
+}
+.logo {
+  width: 20%;
+  position: relative;
+  left: 100px;
+}
+.logo svg {
+  height: 32px;
+  position: relative;
+  left: 0px;
+  top: 5px;
+  fill: blue;
+}
+nav {
+  width: 100%;
+  height: 70px;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+nav h2 {
+  margin: 10px;
+  font-weight: 500;
+  display: inline-block;
+}
+.navbar {
+  margin-left: 3rem auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0.5rem;
+  position: relatives;
+  right: 80px;
+  justify-content: space-between;
+  font-size: 17px;
+  justify-items: center;
+  column-gap: 50px;
+  align-items: center;
+}
+.navbar a:hover {
+  color: blue;
+}
+.icons {
+  display: flex;
+  flex-direction: row;
+}
+.icons svg {
+  padding: 10px;
+  height: 1.5rem;
+  position: relative;
+  top: 8px;
+  fill: rgba(0, 0, 0, 0.27);
+  position: relative;
+}
+.icons span {
+  text-align: center;
+  padding: 10px;
+  margin-right: 2rem;
+}
+.icons span h2 {
+  font-size: 1rem;
+}
+.main-body {
+  background: rgba(88, 88, 88, 0.152);
+  height: 100%;
+  padding: 40px;
+  padding-top: 100px;
+  padding-right: 5rem;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 20% 60% 20%);
+  grid-template-rows: repeat(3, 10% 80% 10%);
+  grid-template-areas: "header header header" "nav main main" "nav main main";
+  gap: 1.5rem;
+  color: black;
+}
+header,
+main,
+footer,
+aside,
+.nav {
+  border-radius: 10px;
+}
+
+header {
+  background: white;
+  grid-area: header;
+}
+.nav {
+  grid-area: nav;
+  background: white;
+  padding: 2rem;
+}
+/* footer {
+  grid-area: footer;
+} */
+main {
+  grid-area: main;
+}
+.text {
+  font-size: 1rem;
+  padding: 1rem;
+}
+/* aside {
+  grid-area: aside;
+} */
+.search-bar {
+  justify-content: space-between;
+  display: flex;
+  padding-right: 10px;
+}
+.search-icon svg {
+  height: 1.3rem;
+  position: relative;
+  padding: 10px;
+  top: 10px;
+}
+.search-icon,
+.location,
+.job-type,
+.salary-range,
+.find-job {
+  padding: 10px;
+  border-right: solid 1px rgb(168, 168, 168);
+  align-items: left;
+  text-align: left;
+}
+.find-job {
+  background: blue;
+  color: white;
+}
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+.cards .card-main {
+  background-color: white;
+  border-radius: 5px;
+}
+.card-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.card-icons svg {
+  margin: 1rem;
+  height: 2rem;
+  padding: 1rem;
+  border-radius: 5px;
+  background: blue;
+  fill: pink;
+}
+.ellipsis svg {
+  background: white;
+  fill: rgb(88, 88, 88);
+  height: 2rem;
+}
+.card-main h2 {
+  margin: 1rem;
+  font-size: 1rem;
+}
+.card-main h3 {
+  margin: 1rem;
+  font-size: 0.7rem;
+  font-weight: 300;
+  color: rgb(57, 57, 57);
+}
+.box {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin: 1rem;
+  font-size: 0.7rem;
+}
+.box a {
+  color: blue;
+  padding: 0.25rem;
+  border-radius: 3px;
+  background: rgb(110, 173, 251);
+  text-align: center;
+}
+.big-box {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  margin: 1rem;
+}
+.big-box a {
+  color: white;
+  background: blue;
+  text-align: center;
+  border-radius: 5px;
+}
+.big-box #two {
+  background: rgba(128, 125, 125, 0.811);
+  color: white;
+}
+.nav h1 {
+  font-size: 1rem;
+}
+.nav {
+  font-size: 0.8rem;
+  text-align: left;
+}
